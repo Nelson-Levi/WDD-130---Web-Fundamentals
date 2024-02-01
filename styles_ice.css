@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#atonement, #title{
+    font-size: 60px;
+    font-family: 'Oswald';
+}
+
+#title:hover {
+    color: black;
+}
+
+#content {
+    text-align: center;
+    color: white;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.fourth-aof{
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Inter';
+}
+
+.citation {
+    color: black;
+}
+
+body {
+    background-color: skyblue;
+}
+
+#attribution {
+    font-size: 30px;
+}

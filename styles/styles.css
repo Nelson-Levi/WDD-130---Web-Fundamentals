@@ -1,9 +1,50 @@
-body {
-    background-color: lightblue;
-}
-
 .nav_link {
     padding: 10px;
     color: black;
     font-size: 1.3em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+}
+
+#main_title {
+    font-size: 4em;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+#content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: lightcoral;
+}
+
+header, footer{
+    padding: 20px;
+    background-color: gray;
+    text-align: center;
+}
+
+footer:hover {
+    color: white;
+    background-color: black;
+}
+
+#fav_link:hover {
+    color: white;
 }
