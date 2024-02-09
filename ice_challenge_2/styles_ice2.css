@@ -1,0 +1,24 @@
+#desk_image,
+#graphic_image,
+#thinking_image {
+  display: inline-block;
+  margin: 0 auto;
+  border: 10px solid;
+  border-color: darkslategrey;
+  border-radius: 60%;
+  width: 150px;
+  margin: 50px;
+}
+
+#content {
+  background-color: gray;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#main_image {
+  display: block;
+  margin: 0;
+  width: 1000px;
+}
