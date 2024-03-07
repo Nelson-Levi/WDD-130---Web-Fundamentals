@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Burned&display=swap");
 
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 header,
 main,
 .book,
@@ -244,6 +252,100 @@ footer .social {
 }
 
 .card-img:hover {
+    opacity: .6;
+    transform: scale(1.1)
+}
+
+/* ***Subpage: Rivers*** */
+
+.rivers-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+  font-family: "Rubik Burned", "Helvetica", "sans-serif";
+  color: white;
+}
+
+h3 {
+    font-size: 2em;
+    font-family: "Rubik Burned", "Helvetica", "sans-serif";
+    color: white;
+    text-align: center;
+    /* grid-row: 1 / span 1; */
+}
+
+ main p{
+  font-family: "Roboto Mono", "Helvetica", "sans-serif";
+  color: white;
+}
+
+.fork-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desolation-content img, .grand-content img, .fork-content img {
+    max-width: 25%;
+    margin: 0px 50px;
+}
+.desolation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.grand-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .fork-image {
+    grid-column: 1/2;
+}
+
+#fork-text,
+#grand-text {
+    grid-column: 2/4;
+}
+
+#fork-content {
+grid-row: 2/3;
+}
+
+#desolation-content {
+    grid-row: 3/4;
+}
+
+#grand-content {
+    grid-row: 4/5;
+}
+
+#desolation-text {
+   grid-column: 1/3;
+}
+
+.desolation-image{
+    grid-column: 3/4;
+}
+
+
+
+.grand-image {
+    grid-column: 1/2;
+} */
+
+.rivers_image {
+    border: 10px solid #b8dbd9;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.rivers_image:hover {
     opacity: .6;
     transform: scale(1.1)
 }
