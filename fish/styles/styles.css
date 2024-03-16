@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Burned&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto Mono", Helvetica, sans-serif;
+}
+
+header {
+    background-color: #001953;
+    color: #b7b8b3;
+    padding: 10px 20px;
+    font-family: "Rubik Burned", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center; /* Vertically center header content */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header #logo_link {
+    text-decoration: none;
+}
+
+header .logo {
+    width: 100px;
+    height: auto;
+    border-radius: 50%; /* 50% Gives a circular shape */
+    margin: 20px; /* Combined margin-bottom and margin-top */
+    justify-self: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.5em;
+    color: #fcf4d8;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #001953;
+    color: #F4F4F9;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a {
+    color: #F4F4F9;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+body {
+    background-color: #fcf4d8;
+}
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.hero-img {
+    grid-column: 1/4;
+}
