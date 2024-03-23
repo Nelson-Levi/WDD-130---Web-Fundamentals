@@ -17,7 +17,8 @@ h4 {
 }
 
 .msg h2,
-.home-title {
+.home-title,
+.hero {
   font-family: "Rubik Burned", "Helvetica", "sans-serif";
 }
 

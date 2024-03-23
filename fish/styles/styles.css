@@ -43,7 +43,6 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-
 footer {
     background-color: #001953;
     color: #F4F4F9;
@@ -75,11 +74,123 @@ body {
     background-color: #fcf4d8;
 }
 
-#hero {
+/* #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+} */
+
+#hero-img {
+    width: 100%;
+    z-index: -1;
 }
 
-.hero-img {
+/* #hero-message {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 100px;
+    color: #fcf4d8;
+    font-family: "Rubik Burned", Helvetica, sans-serif;
+} */
+
+#hero-message {
+    position: absolute; /* Position the message absolutely within the hero */
+    top: 50%; /* Move the top of the message to the vertical center of the hero */
+    left: 50%; /* Move the left side of the message to the horizontal center of the hero */
+    transform: translate(-50%, -50%); /* Translate the message back by half of its own width and height */
+    color: #fcf4d8;
+    font-family: "Rubik Burned", Helvetica, sans-serif;
+    text-align: center; /* Center-align the text */
+    font-size: 3em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    justify-content: center;
+}
+
+#headline-container {
+    grid-column: 1/6;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    font-style: italic;
+}
+
+#sturgeon {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid black;
+}
+
+#sturgeon-home {
+    width: 100%;
+    height: 100%;
+    transition: transform .5s;
+}
+
+#sturgeon-home:hover {
+    transform: scale(1.03);
+  }
+
+#trout {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    margin: 20px;
+    padding: 7px;
+    border: 5px solid black;
+}
+
+#trout-home {
+    width: 100%;
+    transition: transform .5s;
+}
+
+#trout-home:hover {
+    transform: scale(1.01);
+  }
+
+#salmon {
+    grid-column: 2/5;
+    grid-row: 3/4;
+    margin: 20px;
+    border: 5px solid black;
+    padding: 7px;
+
+}
+
+#salmon-home {
+    width: 100%;
+    transition: transform .5s;
+    object-fit: cover;
+    height: 600px;
+}
+
+#salmon-home:hover {
+    transform: scale(1.005);
+}
+
+#fish-message {
+    grid-column: 1/6;
+    text-align: center;
+    margin-top: 2%;
+    grid-row: 5/6;
+    background-color: #b7b8b3;
+    /* background-color: #fcf4d8; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#fish-message p {
+    margin: 2%;
+}
+
+.paragraph-spacer {
     grid-column: 1/4;
+    height: 20px;
 }
