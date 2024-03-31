@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fish of Idaho | Species</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="/fish/styles/styles.css" />
   </head>
   <body>
     <div id="content">
@@ -23,52 +23,74 @@
           <a href="site-plan.html">Site Plan</a>
         </nav>
       </header>
-      <div id="sturgeon-species-img">
-        <img src="images/sturgeon_species.jpg" alt="White Sturgeon" />
-      </div>
-      <h1>White Sturgeon</h1>
-      <p>
-        The white sturgeon, scientific name Acipenser transmontanus, is an
-        ancient species of cartilaginous fish native to the Snake River in
-        Idaho. The white sturgeon is the largest fish in North America, known to
-        reach lengths of up to 20 feet and weigh over 1,500 pounds! White
-        sturgeon are characterized by their elongated bodies, bony plates called
-        scutes (instead of traditional scales), and their distinctive snouts
-        with four barbels, just like a catfish! They are considered “living
-        fossils” because they have remained unchanged for millions of years.
-      </p>
-      <div id="trout-species-img">
-        <img src="images/trout_species.jpg" alt="Brook Trout" />
-      </div>
-      <h1>Brook Trout</h1>
-      <p>
-        The brook trout, scientifically known as Salvelinus fontinalis, is a
-        species of freshwater fish native to eastern North America. Brook trout
-        are not native to Idaho waters, but they were introduced because of
-        their popularity for recreational fishing. Brook trout are easily
-        identified from their distinctive, one-of-a-kind coloration and unique
-        worm-like markings called vermiculations. Brook trout live in cold,
-        clear, well-oxygenated water. They prefer habitats with plenty of cover
-        and hiding places. They are known as opportunistic feeders, eating
-        everything from insects, smaller fish, and crustaceans.
-      </p>
-      <div id="salmon-species-img">
-        <img src="images/salmon_species.jpg" alt="Sockeye Salmon" />
-      </div>
-      <h1>Sockeye Salmon</h1>
-      <p>
-        Oncorhynchus nerka, more commonly known as the sockeye salmon, is a
-        species of anadromous (living in freshwater AND saltwater) fish native
-        to the Pacific Ocean and its tributaries. Sockeye salmon have sleek,
-        streamlined bodies and metallic-blue coloration. During the spawning
-        season, males develop an iconic hooked jaw and vibrant red bodies! They
-        are a large species of salmon, reching lengths of 24 to 33 inches and
-        weighing anywhere from 5 to 15 pounds. Sockeye salmon are best known for
-        their epic spawning migration, when they travel hundreds of miles from
-        the ocean to breed in the same freshwater rivers and streams where they
-        were born. Sockeye salmon are a particularly tasty species and make
-        great table fare.
-      </p>
+      <main id="species-main">
+        <div class="card" id="sturgeon-card">
+          <img
+            src="images/sturgeon_species.jpg"
+            alt="White Sturgeon"
+            style="width: 100%"
+          />
+          <h1>White Sturgeon</h1>
+          <p class="scientific">Acipenser transmontanus</p>
+          <p>
+            The white sturgeon, scientific name Acipenser transmontanus, is an
+            ancient species of cartilaginous fish native to the Snake River in
+            Idaho. The white sturgeon is the largest fish in North America,
+            known to reach lengths of up to 20 feet and weigh over 1,500 pounds!
+            White sturgeon are characterized by their elongated bodies, bony
+            plates called scutes (instead of traditional scales), and their
+            distinctive snouts with four barbels, just like a catfish! They are
+            considered “living fossils” because they have remained unchanged for
+            millions of years. A sturgeon caught in the Snake River was the largest freshwater fish ever caught in the North American continent.
+          </p>
+        </div>
+
+        <div class="card" id="trout-card">
+          <img
+            src="images/rsz_brook-nat.jpg"
+            alt="Brook Trout"
+            style="width: 100%"
+          />
+          <h1>Brook Trout</h1>
+          <p class="scientific">Salvelinus fontinalis</p>
+          <p>
+            The brook trout, scientifically known as Salvelinus fontinalis, is a
+            species of freshwater fish native to eastern North America. Brook
+            trout are not native to Idaho waters, but they were introduced
+            because of their popularity for recreational fishing. Brook trout
+            are easily identified from their distinctive, one-of-a-kind
+            coloration and unique worm-like markings called vermiculations.
+            Brook trout live in cold, clear, well-oxygenated water. They prefer
+            habitats with plenty of cover and hiding places. They are known as
+            opportunistic feeders, eating everything from insects, smaller fish,
+            and crustaceans.
+          </p>
+        </div>
+
+        <div class="card" id="salmon-card">
+          <img
+            src="images/salmon_species.jpg"
+            alt="Sockeye Salmon"
+            style="width: 100%"
+            id="sockeye-img"
+          />
+          <h1>Sockeye Salmon</h1>
+          <p class="scientific">Oncorhynchus nerka</p>
+          <p>
+            Oncorhynchus nerka, more commonly known as the sockeye salmon, is a
+            species of anadromous (living in freshwater AND saltwater) fish
+            native to the Pacific Ocean and its tributaries. Sockeye salmon have
+            sleek, streamlined bodies and metallic-blue coloration. During the
+            spawning season, males develop an iconic hooked jaw and vibrant red
+            bodies! They are a large species of salmon, reching lengths of 24 to
+            33 inches and weighing anywhere from 5 to 15 pounds. Sockeye salmon
+            are best known for their epic spawning migration, when they travel
+            hundreds of miles from the ocean to breed in the same freshwater
+            rivers and streams where they were born. Sockeye salmon are a
+            particularly tasty species and make great table fare.
+          </p>
+        </div>
+      </main>
       <footer>
         <p>Fish of Idaho &copy; 2024 - Levi Nelson</p>
         <p><a href="faq.html">FAQ</a></p>

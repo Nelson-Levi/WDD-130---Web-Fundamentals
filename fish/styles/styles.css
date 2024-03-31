@@ -13,6 +13,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     align-items: center; /* Vertically center header content */
+    width: 100%;
 }
 
 nav {
@@ -54,6 +55,7 @@ footer {
     align-items: center;
     font-size: 1.2em;
     text-align: center;
+    width: 100%;
   }
   
   footer p {
@@ -193,4 +195,48 @@ main {
 .paragraph-spacer {
     grid-column: 1/4;
     height: 20px;
+}
+
+
+#species-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+  }
+
+#sturgeon-card {
+    grid-column: 1/2;
+    grid-row: 1;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#trout-card {
+    grid-column: 2/3;
+    grid-row: 1;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#salmon-card {
+    grid-column: 1/3;
+    grid-row: 2;
+    width: 95%;
+    margin: 50px auto;
+}
+
+.scientific {
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#sockeye-img {
+    width: 75%
 }
