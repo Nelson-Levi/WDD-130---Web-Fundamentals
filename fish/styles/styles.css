@@ -240,3 +240,54 @@ main {
 #sockeye-img {
     width: 75%
 }
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 75%; /* bro i made it 75 */
+    text-align: left;
+    border: 1px solid #b7b8b3;
+    outline: none;
+    transition: 0.4s;
+    margin-top: 5px;
+  }
+
+  button {
+    font-family: "Roboto Mono", Helvetica, sans-serif;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #ccc;
+  }
+
+#faq_background {
+    position: fixed;
+    width:100%;
+    z-index: -1;
+    top:0;
+    left:0;
+    overlay: auto;
+}
+
+#top_button {
+    margin-top: 85px;
+}
+
+#bottom_panel {
+    margin-bottom: 85px;
+}
+
+#faq_title {
+    position: absolute; /* Position the message absolutely within the hero */
+    top: 26%; /* Move the top of the message to the vertical center of the hero */
+    left: 50%; /* Move the left side of the message to the horizontal center of the hero */
+    transform: translate(-50%, -50%); /* Translate the message back by half of its own width and height */
+    color: black;
+    font-family: "Rubik Burned", Helvetica, sans-serif;
+    text-align: center; /* Center-align the text */
+    font-size: 3em;
+}
