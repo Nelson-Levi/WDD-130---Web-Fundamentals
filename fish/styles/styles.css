@@ -8,7 +8,6 @@ body {
 header {
     background-color: #001953;
     color: #b7b8b3;
-    padding: 10px 20px;
     font-family: "Rubik Burned", Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
@@ -49,7 +48,6 @@ footer {
     color: #F4F4F9;
     padding-bottom: 50px;
     padding-top: 40px;
-    padding-left: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -242,12 +240,16 @@ main {
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
+.accordion_container {
+    width: 75%;
+    /* margin-top: 75px; */
+}
 .accordion {
     background-color: #eee;
     color: #444;
     cursor: pointer;
     padding: 18px;
-    width: 75%; /* bro i made it 75 */
+    width: 100%; /* bro i made it 75 */
     text-align: left;
     border: 1px solid #b7b8b3;
     outline: none;
@@ -273,21 +275,20 @@ main {
     overlay: auto;
 }
 
-#top_button {
-    margin-top: 85px;
-}
-
-#bottom_panel {
-    margin-bottom: 85px;
-}
-
 #faq_title {
-    position: absolute; /* Position the message absolutely within the hero */
-    top: 26%; /* Move the top of the message to the vertical center of the hero */
-    left: 50%; /* Move the left side of the message to the horizontal center of the hero */
-    transform: translate(-50%, -50%); /* Translate the message back by half of its own width and height */
     color: black;
     font-family: "Rubik Burned", Helvetica, sans-serif;
     text-align: center; /* Center-align the text */
     font-size: 3em;
+    padding: 15px;
+    letter-spacing: 4px;
+
+}
+
+#all_accordions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
 }
